@@ -7,6 +7,9 @@
     /* color: white; */
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .container{
     color: #fff;
 }
@@ -377,3 +380,44 @@ height: 50px;
     display: flex;
     background-color: #009CC2;
 }
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 184px;
+}
+
+.footer_wrapper{
+    display: flex;
+    width: 1280px;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 14px;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    text-decoration: none;
+    width: 236px;
+    justify-content: space-between;
+}
+
+.author{
+    color:#818181
+}
+
+
+footer ul li a{
+color: white;
+/* font-size: 14px; */
+line-height: 140%;
+}
+
+
+
+
+
