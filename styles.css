@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    color: #fff;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn{
+    display: flex;
+    width: 184px;
+    min-height: 46px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.btn:hover{
+    /* border: none; */
+    background-color: #009CC2;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1600px;
+
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-image: url('./assets/bg-image-wrapper.png');
+    display: flex;
+    flex-direction: column;
+height: 744px;
+}
+.header_inner{
+    display: flex;
+    flex-direction: column;
+    height: 424px;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    width: 582px;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+    height: 221px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 64px;
+
+    letter-spacing: 0.07em;
+}
+
+.subtitle{
+    width: 504px;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align:center;
+}
+
+.social_links>ul{
+    margin-top: 183px;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+.your_life{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    height: 842px;
+    width: 1062px;
+    margin: 0 auto;
+}
+.section_info{
+    width: 407px;
+    margin-top: 295px;
+}
+
+.section_description{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20.2px;
+    margin-bottom: 28px;
+}
+
+.yourLife_title{
+    letter-spacing: 0.04em;
+}
+
+.section_picture{
+    margin: 120px 0px 0px 247px
+}
+.community{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 80px; */
+    height: 503px;
+    background-color: #F5F6F7;
+}
+.community_container{
+    display: flex;
+    width: 1331px;
+    height: 284px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.community_description{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 298px;
+    margin-top: 75px;
+}
+.community_description>img{
+    max-width: 45px;
+}
+h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 0.03em;
+}
+.community_text{
+    margin-top: 8px;
+    text-align: center;
+    width: 298px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.slider_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-left: 139px;
+    height: 284px;
+}
+.slider_control{
+    display: flex;
+    align-items: center;
+    width: 79px;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    left: 545px;
+}
+.previous_slide{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+transform: rotate(-45deg);
+width: 8px ;
+height: 8px;
+}
+
+.next_slide{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+transform: rotate(45deg);
+width: 8px ;
+height: 8px;
+}
+
+.slider{
+    margin-top: 20px;
+    min-width: 1281px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slider>img{
+    margin-right: 30px;
+}
+.slider:first-child{
+    margin-left: 0;
+}
+
+.slider:last-child{
+    margin-right: 0;
+}
+
+.ctrl_btn:hover{
+    cursor: pointer;
+    /* color: ; */
+}
+
+.slider{
+    transition: 1.5s;
+}
