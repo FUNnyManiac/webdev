@@ -231,3 +231,45 @@ height: 8px;
 .slider{
     transition: 1.5s;
 }
+
+.implement{
+    display: flex;
+    height: 842px;
+}
+
+.implement_content{
+    display: flex;
+    width: 953px;
+    height: 582px;
+    margin: 121px 0 0 269px;
+}
+
+.implement_img{
+    display: flex;
+    width: 582px;
+
+}
+
+.implement_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 139px;
+    margin-top: 198px;
+}
+
+.implement_title{
+    font-size: 24px;
+    letter-spacing: 0.044em;
+}
+.implement_description{
+    margin-top: 20px;
+    /* letter-spacing: 0.01em; */
+    font-size: 14px;
+    line-height: 145%;
+}
+
+.implement_btn{
+   width: 180px;
+   height: 46px;
+   margin-top: 29px;
+}
