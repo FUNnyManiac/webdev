@@ -26,6 +26,8 @@
     border: none;
     color: #fff;
     font-weight: 700;
+    transition: 1s all;
+
 }
 .btn:hover{
     /* border: none; */
@@ -272,4 +274,106 @@ height: 8px;
    width: 180px;
    height: 46px;
    margin-top: 29px;
+}
+
+.signUp{
+    display: flex;
+    height: 598px;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url(./assets/pexels-christina-morillo-1181675\ 1.png);
+}
+
+.signUp_content{
+margin-top: 217px;
+width: 406px;
+/* display: flex; */
+}
+
+.signUp_title{
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+
+.send_form{
+    display: flex;
+    margin-top: 30px;
+
+}
+.send_input{
+    width: 340px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+}
+.send_input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+.send_btn{
+    width: 66px;
+    content: "+";
+    position: relative;
+}
+
+.check path{
+    transition: 0.5s all;
+}
+
+
+.download{
+    background-color:#F5F6F7;
+    height: 468px;
+    display: flex;
+    justify-content: center;
+}
+
+.download_content{
+    display: flex;
+    flex-direction: column;
+    width: 483px;
+}
+.download_title{
+    text-align: center;
+    margin-top: 120px;
+    letter-spacing: 0.042em;
+}
+.download_description{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 140%;
+}
+.download_btns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-store{
+    display: flex;
+    border: none;
+    width: 188px;
+    height: 50px;
+}
+.btn-store>.btn{
+width: 128px;
+height: 50px;
+}
+.btn-store>.send_btn{
+    width: 60px;
+    height: 50px;
+}
+
+.btn-store:hover .btn{
+    background-color: #009CC2;
+    transition: 0.7s all;
+
+}
+
+.btn-store>.send_btn{
+    display: flex;
+    background-color: #009CC2;
 }
